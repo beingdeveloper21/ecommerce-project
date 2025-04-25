@@ -449,4 +449,4 @@ res.json({success:true,message:'Status updated'})
     res.json({success:false,message:error.message})
  }
 }
-export {placeOrder,placeOrderStripe,placeOrderRazorpay,allOrders,userOrders,updateStatus,verifyStripe}
+export {placeOrder,placeOrderStripe,allOrders,userOrders,updateStatus,verifyStripe}
